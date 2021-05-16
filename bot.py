@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 from discord.ext.commands import bot
 
-client = commands.Bot(command_prefix="D!")
+client = commands.Bot(command_prefix="tokenhere")
 
 @client.event
 async def on_ready():
