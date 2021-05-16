@@ -25,7 +25,7 @@ async def on_ready():
     print(f"I am online!  {client.user.name}")
     await client.change_presence(status=discord.Status.online, activity = discord.Game("Discord Birthday"))
     logs = client.get_channel(834580547194978314)
-    await logs.send("<:online:754362486177660969> I am online, CS Bot <:online:754362486177660969>")
+    await logs.send("<:online:754362486177660969> I am online, DBB Bot <:online:754362486177660969>")
 
 
 
@@ -52,4 +52,4 @@ async def discordbirthdaycountdown(ctx):
 
 
 client.load_extension("jishaku")
-client.run("ODQxNDQ1OTQ1MjgyOTIwNTQ3.YJm3mg.pGQ5GPiBdvqDiG4MeHs9qWUaRSQ")
+client.run("token")
